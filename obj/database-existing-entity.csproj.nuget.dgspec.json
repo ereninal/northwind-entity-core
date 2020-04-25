@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj": {}
+    "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj": {}
   },
   "projects": {
-    "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj": {
+    "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
         "projectName": "database-existing-entity",
-        "projectPath": "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
         "packagesPath": "C:\\Users\\ereni\\.nuget\\packages\\",
-        "outputPath": "c:\\xampp\\htdocs\\database-existing-entity\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\database-existing-entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ereni\\AppData\\Roaming\\NuGet\\NuGet.Config",
