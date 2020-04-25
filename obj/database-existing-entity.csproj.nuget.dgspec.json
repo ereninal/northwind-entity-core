@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj": {}
+    "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj": {
+    "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
+        "projectUniqueName": "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
         "projectName": "database-existing-entity",
-        "projectPath": "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
+        "projectPath": "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
         "packagesPath": "C:\\Users\\ereni\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\database-existing-entity\\obj\\",
+        "outputPath": "c:\\xampp\\htdocs\\database-existing-entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ereni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
               "version": "[3.1.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.3, )"
             },

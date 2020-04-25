@@ -1,4 +1,6 @@
 ﻿using System;
+using database_existing_entity.Data.EfCore;
+using System.Linq;
 
 namespace database_existing_entity
 {
@@ -6,7 +8,17 @@ namespace database_existing_entity
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            using(var db = new NorthwindContext())
+            {
+                var products = db.Customers.Select(c=>new {
+                    c.ContactName,
+                    c.ContactTitle
+                });
+                foreach (var item in products)
+                {
+                    Console.WriteLine(item.ContactName+" "+item.ContactTitle);
+                }
+            }
         }
     }
 }

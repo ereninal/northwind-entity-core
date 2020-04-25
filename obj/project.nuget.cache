@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Afo3h+2jsQmLXulYdf5rNI5J5RIS3gKb6Q2hYfZ5UX/O3TSw3g/3ej/m3D0W5cMImsCwOyGZZgCkWAojw5/raQ==",
+  "dgSpecHash": "t5sD34APfeg9jLq8fhy2I1VourQk4y9XVoF3LMyLBIQyp7+/OoEtMnsL5T9S23i2evcL94Efsv/Foi5dPBtYdQ==",
   "success": true,
-  "projectFilePath": "C:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
+  "projectFilePath": "c:\\xampp\\htdocs\\database-existing-entity\\database-existing-entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ereni\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\ereni\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
@@ -14,6 +14,7 @@
     "C:\\Users\\ereni\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.3\\microsoft.entityframeworkcore.design.3.1.3.nupkg.sha512",
     "C:\\Users\\ereni\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.3\\microsoft.entityframeworkcore.relational.3.1.3.nupkg.sha512",
     "C:\\Users\\ereni\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.3\\microsoft.entityframeworkcore.sqlserver.3.1.3.nupkg.sha512",
+    "C:\\Users\\ereni\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.3\\microsoft.entityframeworkcore.tools.3.1.3.nupkg.sha512",
     "C:\\Users\\ereni\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.3\\microsoft.extensions.caching.abstractions.3.1.3.nupkg.sha512",
     "C:\\Users\\ereni\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.3\\microsoft.extensions.caching.memory.3.1.3.nupkg.sha512",
     "C:\\Users\\ereni\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",

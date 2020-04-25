@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace database_existing_entity.Data.EfCore
 {
-    public partial class Northwind : DbContext
+    public partial class NorthwindContext : DbContext
     {
-        public Northwind()
+        public NorthwindContext()
         {
         }
 
-        public Northwind(DbContextOptions<Northwind> options)
+        public NorthwindContext(DbContextOptions<NorthwindContext> options)
             : base(options)
         {
         }
@@ -49,7 +49,6 @@ namespace database_existing_entity.Data.EfCore
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Data Source = EREN-LAPTOP\\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=SSPI;");
             }
         }
