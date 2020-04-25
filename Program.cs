@@ -10,14 +10,24 @@ namespace database_existing_entity
         {
             using(var db = new NorthwindContext())
             {
-                var products = db.Customers.Select(c=>new {
+                var costumer = db.Customers
+                            .Where(c=>c.City == "Madrid")
+                            .Select(n=> new{n.ContactName,n.City})
+                            .ToList();
+                                            
+                foreach (var item in costumer)
+                {
+                    Console.WriteLine(item.ContactName+" "+item.City);
+                }
+
+                /*var products = db.Customers.Select(c=>new {
                     c.ContactName,
                     c.ContactTitle
                 });
                 foreach (var item in products)
                 {
                     Console.WriteLine(item.ContactName+" "+item.ContactTitle);
-                }
+                }*/
             }
         }
     }
