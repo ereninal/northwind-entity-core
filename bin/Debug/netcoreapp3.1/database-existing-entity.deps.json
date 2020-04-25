@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "database-existing-entity/1.0.0": {
+        "runtime": {
+          "database-existing-entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "database-existing-entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
